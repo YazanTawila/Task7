@@ -1,0 +1,14 @@
+.card-2{
+    color: white;
+}
+.card-number{
+    font-size: 50px;
+    -webkit-text-stroke: 3px;
+    
+}
+.card-2 h4{
+    margin: 15px 0;
+    font-weight:bold;
+    font-size: 18px;
+    
+}

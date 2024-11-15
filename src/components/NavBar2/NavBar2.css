@@ -1,0 +1,13 @@
+.navbar-collapse{
+    flex-grow: 0;
+    padding: 0 60px;
+    justify-content: space-between;
+}
+.NavBar2-Links a{
+    padding-right:20px ;
+    text-decoration: none;
+    color: black;
+}
+.NavBar2-Links a:hover{
+    color: rgb(56, 75, 255);
+}

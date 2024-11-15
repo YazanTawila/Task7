@@ -1,0 +1,53 @@
+.OurServices{
+    padding: 100px 0;
+}
+.OurServices-title{
+    color: rgb(56, 75, 255);
+    margin-bottom: 20px;
+}
+.left-section h2{
+    width: 80%;
+    font-size: 36px;
+    font-weight: bold;
+    
+}
+.right-section{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    gap: 10px;
+}
+.right-section button{
+    padding: 5px;
+    border: none;
+    border-radius: 50%;
+    background-color: white;
+    box-shadow: 0px 0px 3px 2px rgba(7, 7, 7, 0.068);
+}
+.right-section button:hover{
+    background-color:rgb(56, 75, 255);
+    color: white;
+}
+.arrow-icon{
+    font-size: 25px;
+}
+.OurServicesCards{
+    padding: 50px 0;
+    
+}
+.video{
+    border-radius: 20px;
+
+}
+.OurServicesCards2{
+    margin-top: -230px;
+    padding: 200px 0px 80px 0px;
+    width: 100%;
+    background-color: rgb(24, 24, 94);
+}
+@media(max-width:992px){
+    .OurServices{
+        padding: 100px 12px;
+    }
+
+}

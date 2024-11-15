@@ -1,0 +1,18 @@
+.LogosComponents{
+    border-bottom: 1px solid rgb(197, 194, 194);
+    display: flex;
+    justify-content: center;
+}
+.LogosComponents .images-dev{
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 20px 0px;
+    
+}
+.LogosComponents .images-dev img{
+    width: 150px;
+}

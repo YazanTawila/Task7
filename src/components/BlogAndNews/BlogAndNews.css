@@ -1,0 +1,8 @@
+.BlogAndNews{
+    padding: 100px 0;
+}
+@media(max-width:992px){
+    .BlogAndNews{
+        padding: 100px 12px;
+    }
+}

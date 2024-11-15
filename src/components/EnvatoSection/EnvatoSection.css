@@ -1,0 +1,27 @@
+.EnvatoSection{
+    margin: 60px 0;
+}
+.envatoImageGray img{
+    width: 154px;
+}
+
+.EnvatoSectionImages{
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 20px 0px;
+}
+.EnvatoSection .EnvatoSection-p {
+    text-align: center;
+    font-weight: bold;
+}
+
+@media(max-width:768px){
+    .envatoImageGray img{
+        display: none;
+    }
+}

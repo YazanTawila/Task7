@@ -1,0 +1,34 @@
+.AfterHero-Section{
+    margin: 50px auto;
+}
+.AfterHero-Section ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    flex-wrap: wrap;
+}
+.AfterHero-Section ul li{
+    
+    font-size: 50px;
+    padding: 0 30px;
+    font-weight: bold;
+}
+.AfterHero-Section ul li img{
+    padding-right: 30px;
+}
+@media(max-width:568px){
+    .AfterHero-Section ul li{
+        font-size: 25px;
+        margin: 20px 0;
+        
+    }
+    .AfterHero-Section ul{
+        padding: 0;
+    }
+    .AfterHero-Section ul li img{
+        width: 70px;
+    }
+    .display-none{
+        display: none;
+    }
+}
